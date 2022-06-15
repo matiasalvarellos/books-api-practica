@@ -15,6 +15,6 @@ app.set('views', 'src/views');
 app.use('/', mainRouter);
 app.use('/api', mainApiRouter);
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('listening in http://localhost:3000');
 });
