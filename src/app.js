@@ -16,5 +16,5 @@ app.use('/', mainRouter);
 app.use('/api', mainApiRouter);
 
 app.listen(3001, () => {
-  console.log('listening in http://localhost:3000');
+  console.log('listening in http://localhost:3001');
 });

@@ -1,7 +1,6 @@
 module.exports = {
     listProducts: (req, res) => {
         //do magic
-        res.send('listProducts');
     },
     showProduct: (req, res) => {
         //do magic
